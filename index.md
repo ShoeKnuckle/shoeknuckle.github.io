@@ -11,6 +11,9 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # Header 1
+
+![chopper](7144d67e51b17a56890aa002a750f3c7-2028755823.jpg)
+
 # Building a Port Scanner
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
