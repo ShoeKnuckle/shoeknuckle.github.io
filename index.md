@@ -16,19 +16,27 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Building a Port Scanner
 
+08/03/2025
+
 First, I added some import lines to setup the information it can receive.
 #img
+
 Then I used an if else statement to define the target.
 #img
+
 Added a banner next to make it look slightly nicer.
 #img
+
 Next I used a try statement for what specific port range will be scanned. I chose the range of 50 and 85 because ports that range from 50-85 are commonly used in home routers such as DNS and HTTP. I then defined the s variable and used settimedefault so that it wouldn't spend more than 1 second scanning each port. I used result to tell me which ports were open and to close ports that were not. 
 #img
+
 I had to add exceptions to make the scanner exit properly if and interuption occured. I used KeyboardInterrupt in case of a Ctrl+C, socket,gaierror for an incorrect hostname, and socket.error for inablility to connect to an IP Address.
 
-Here are the results for the first port scan using my home router. 
+Here are the results for the first port scan using my home router.
 
 ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
+
+As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
 
 ## Header 2
 
