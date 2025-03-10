@@ -18,29 +18,19 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 08/03/2025
 
-First, I added some import lines to setup the information it can receive.
-#img
+First, I added some import statements to allow information to be received such as datetime. Then I used an if else statement to define the target and limit the user to two argument being "scanner.py" and the "IP". I also just added a banner next to make it look slightly nicer and to diplay the current date and time.
 
-Then I used an if else statement to define the target.
-#img
+![image](https://github.com/user-attachments/assets/f3efc634-42d7-48af-97d0-d61e3f600b7e)
 
-Added a banner next to make it look slightly nicer.
-#img
+Next I used the try command and a for loop what specific port range will be scanned. I chose the range of 50 and 85 because ports that range from 50-85 are commonly used in home routers such as DNS and HTTP. I then defined the s variable and used settimedefault so that it wouldn't spend more than 1 second scanning each port. I used result to tell me which ports were open and to close ports that were not. I had to add exceptions to make the scanner exit properly and if an interuption occured. I used KeyboardInterrupt in case of a Ctrl+C, socket,gaierror for an incorrect hostname, and socket.error for inablility to connect to an IP Address. Below is the final script and the results for the first port scan, using my default gateway address to scan my home router.
 
-Next I used a try statement for what specific port range will be scanned. I chose the range of 50 and 85 because ports that range from 50-85 are commonly used in home routers such as DNS and HTTP. I then defined the s variable and used settimedefault so that it wouldn't spend more than 1 second scanning each port. I used result to tell me which ports were open and to close ports that were not. 
-#img
-
-I had to add exceptions to make the scanner exit properly if and interuption occured. I used KeyboardInterrupt in case of a Ctrl+C, socket,gaierror for an incorrect hostname, and socket.error for inablility to connect to an IP Address.
-
-Here are the results for the first port scan using my home router.
-
-![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
+![image](https://github.com/user-attachments/assets/f2058142-202f-4224-bb2c-f71cc2bae3ef)                     ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
 
 As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
 
 # Very Basic Calc
 
-To start off, I put two imput statements in to give the user two numbers to calculate. I then added an input inbeteen so the user could choose an operator to use for their numbers. 
+To start off, I put two imput statements in to give the user two numbers to calculate. I then added an input inbeteen so the user could choose an operator to use for their numbers:
 
 ![image](https://github.com/user-attachments/assets/88e8814d-6a59-4dbb-93f2-fb9c0aca4db8)
 
