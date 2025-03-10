@@ -36,6 +36,10 @@ Here are the results for the first port scan using my home router.
 
 ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
 
+# Very Basic Calc
+
+![imagge](https://github.com/user-attachments/assets/f33480bd-3a32-41a2-910f-8ec73deef888)
+
 As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
 
 ## Header 2
