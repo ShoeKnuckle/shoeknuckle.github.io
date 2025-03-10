@@ -22,6 +22,8 @@ As you can see, it only came up with DNS and HTTP. I ran another test after this
 
 # Very Basic Calc
 
+09/03/2025
+
 To start off, I put two imput statements in to give the user two numbers to calculate. I then added an input inbeteen so the user could choose an operator to use for their numbers:
 
 ![image](https://github.com/user-attachments/assets/88e8814d-6a59-4dbb-93f2-fb9c0aca4db8)
@@ -32,6 +34,8 @@ I then had to add the operators for the user so I just added +, -, /, *, and ** 
 
 
 # Shoe Budget App 
+
+10/03/2025
 
 I started this project by creating a class and defining the name and price of said "shoe" with an init statement, adding float to price incase of decimals. Then I defined a budget check using 'if not isinstance' so if the user typed sn invalid value, it will close down the application. I also had to define 'change' as budget - the self.price for an accurate amount of change to be received:
 ![image](https://github.com/user-attachments/assets/d69f834a-331b-4b83-8194-a4bac631541a)
