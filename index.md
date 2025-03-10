@@ -44,6 +44,12 @@ In attempt to follow the DRY approach, I started another script. I firstly start
 
 ![image](https://github.com/user-attachments/assets/046211db-cb65-46bf-b948-ec88a096a697)
 
+A few examples of possible outputs:
+![image](https://github.com/user-attachments/assets/d09f8472-4301-4d1d-a801-3411db5599c9)
+![image](https://github.com/user-attachments/assets/2d0bd90f-cb76-4b36-97de-66fe8a2bff25)
+![image](https://github.com/user-attachments/assets/d752a5ae-b500-40b4-a731-18900ed97a48)
+
+
 
 ## Header 2
 
