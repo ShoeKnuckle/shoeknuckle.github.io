@@ -10,10 +10,6 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
-
-![chopper](7144d67e51b17a56890aa002a750f3c7-2028755823.jpg)
-
 # Building a Port Scanner
 
 08/03/2025
@@ -24,9 +20,10 @@ First, I added some import statements to allow information to be received such a
 
 Next I used the try command and a for loop what specific port range will be scanned. I chose the range of 50 and 85 because ports that range from 50-85 are commonly used in home routers such as DNS and HTTP. I then defined the s variable and used settimedefault so that it wouldn't spend more than 1 second scanning each port. I used result to tell me which ports were open and to close ports that were not. I had to add exceptions to make the scanner exit properly and if an interuption occured. I used KeyboardInterrupt in case of a Ctrl+C, socket,gaierror for an incorrect hostname, and socket.error for inablility to connect to an IP Address. Below is the final script and the results for the first port scan, using my default gateway address to scan my home router.
 
-![image](https://github.com/user-attachments/assets/f2058142-202f-4224-bb2c-f71cc2bae3ef)                     ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
+![image](https://github.com/user-attachments/assets/f2058142-202f-4224-bb2c-f71cc2bae3ef)  ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
 
 As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
+
 
 # Very Basic Calc
 
@@ -39,6 +36,11 @@ I then had to add the operators for the user so I just added +, -, /, *, and ** 
 ![image](https://github.com/user-attachments/assets/13e54c3e-1e27-4319-a4f4-ac79d05fd444)
 
 
+# Shoe Budget App/Tool 
+
+I started this project by creating a class and defining the name and price of said "shoe" with an init statement, adding float to price incase of decimals. Then I defined a budget check using if not isinstance so if the type is invalid, it will close down the application. . . . . . . isinstance as it checks for a type and returns True, which means 'if not isinstance' is False, it means it's invalid and closes the app." Next I had to define 'change' as budget - the self.price for an accurate amount of change to be received. Next, I defined the buy option using an if else statement, so that as long as the budget is greater than the price of the shoe, the shoe can be purchased. If the budget is equal to the price, it can be purchased, and if the budget is higher, the change will be calculated. If the budget is lower than the price, the application will shut down. 
+
+In attempt to follow the DRY approach, I started another script to run....
 
 ## Header 2
 
