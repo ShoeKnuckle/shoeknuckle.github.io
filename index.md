@@ -36,11 +36,19 @@ Here are the results for the first port scan using my home router.
 
 ![scannertest1](https://github.com/user-attachments/assets/76d94916-387c-40e0-b4de-bf222c91750e)
 
+As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
+
 # Very Basic Calc
 
-![imagge](https://github.com/user-attachments/assets/f33480bd-3a32-41a2-910f-8ec73deef888)
+To start off, I put two imput statements in to give the user two numbers to calculate. I then added an input inbeteen so the user could choose an operator to use for their numbers. 
 
-As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
+![image](https://github.com/user-attachments/assets/88e8814d-6a59-4dbb-93f2-fb9c0aca4db8)
+
+I then had to add the operators for the user so I just added +, -, /, *, and ** using an if else statement for the script to actually run. I added the option of using "^" to the "**" operator because people tend to use both. Final result:
+
+![image](https://github.com/user-attachments/assets/13e54c3e-1e27-4319-a4f4-ac79d05fd444)
+
+
 
 ## Header 2
 
