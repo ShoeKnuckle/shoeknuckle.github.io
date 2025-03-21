@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Building a Port Scanner
-
+<br>
 08/03/2025
 
 First, I added some import statements to allow information to be received such as datetime. Then I used an if else statement to define the target and limit the user to two argument being "scanner.py" and the "IP". I also just added a banner next to make it look slightly nicer and to diplay the current date and time.
@@ -16,9 +16,10 @@ Next I used the try command and a for loop what specific port range will be scan
 
 As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
 
-
+<br>
 
 # Very Basic Calc
+<br>
 
 09/03/2025
 
@@ -30,6 +31,7 @@ I then had to add the operators for the user so I just added +, -, /, *, and ** 
 
 ![image](https://github.com/user-attachments/assets/13e54c3e-1e27-4319-a4f4-ac79d05fd444)
 
+<br>
 
 # Shoe Budget App 
 
@@ -51,9 +53,12 @@ A few examples of possible outputs:
 ![image](https://github.com/user-attachments/assets/2d0bd90f-cb76-4b36-97de-66fe8a2bff25)
 ![image](https://github.com/user-attachments/assets/d752a5ae-b500-40b4-a731-18900ed97a48)
 
-
+<br>
 
 ## Header 2
+<br>
+<br>
+<br>
 
 > This is a blockquote following a header.
 >
