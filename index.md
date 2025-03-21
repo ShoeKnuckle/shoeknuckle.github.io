@@ -20,6 +20,7 @@ Next I used the try command and a for loop what specific port range will be scan
 As you can see, it only came up with DNS and HTTP. I ran another test after this to check if 443 was as well and it was it was open as well.
 
 
+
 # Very Basic Calc
 
 09/03/2025
